@@ -1,0 +1,25 @@
+@import '../../variables.scss';
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+  }
+  .flexBody {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px solid $color-2;
+    background-color: $color-main;
+    
+  }
+  header a {
+    color: $font-color;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: $font-Family-header;
+    font-weight: $font-weight-header;
+  }
