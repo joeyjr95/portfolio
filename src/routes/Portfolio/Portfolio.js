@@ -60,7 +60,7 @@ render(){
     
         <section className="portfolio-section">
             <div className="h3-container">
-            <h3>Here are my Projects so far</h3>
+            <h3>Projects</h3>
             </div>
             <div className="projects">
              {projects.map(project => (
