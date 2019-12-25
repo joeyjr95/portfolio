@@ -10,7 +10,7 @@ export default class About extends Component {
             <div className="about-me-essay">
               <p>
                 {" "}
-                Currently I am a 24 year old Full-Stack developer from
+                I am a 24 year old Full-Stack developer from
                 Gainesville, Florida who recently graduated from Thinkful's
                 engineering immersion program. As a developer, I love learning
                 different code everyday and eventually putting it together to

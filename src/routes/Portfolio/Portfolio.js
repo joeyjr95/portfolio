@@ -65,27 +65,20 @@ render(){
             <div className="projects">
              {projects.map(project => (
                 <section className="project-main"> 
-               <h4>{project.title}</h4>
+               <button
+            className="collapsseToggle"
+            onClick={() => this.toggle(`${Number(project.id)}`)}
+          ><h4>{project.title}</h4></button>
                <div className="project-body">
+               <div className={collapssed[Number(project.id)] ? "toggleContent-open" : "toggleContent-closed"}>
                 <p className="description">
                 {project.description}
                 </p>
-                <div className={collapssed[Number(project.id)] ? "toggleContent-open" : "toggleContent-closed"}>
                  <img src={project.mImg} alt="website"/>      
                 <p className="stack">Tech Stack: {project.stack}</p>
                 <h5><Link to={project.live}>live project</Link></h5>
                 <h5><Link to={project.repo}>repo</Link></h5>
              </div>  
-                <button
-            className="collapsseToggle"
-            onClick={() => this.toggle(`${Number(project.id)}`)}
-          >
-           {collapssed[Number(project.id)] ? (
-              <p>less info</p>
-            ) : (
-                <p>more info</p>
-            )}
-          </button>
           
           
           </div>
