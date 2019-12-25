@@ -97,23 +97,39 @@
         }
     }
 }
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 768px) {
     .first-section{
         >img{
-            margin-top: 12vh;
+            margin-top: 8vh;
             width: 120px;
             height: 120px;
         }
         >h2{
-            font-size: 5vw;
+            font-size: 7.7vh;
+            margin-top: 14vh;
+        }
+        
+    }
+    .second-section{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .first-section{
+        >img{
             margin-top: 12vh;
+        }
+        >h2{
+            font-size: 5vw;
+            margin-top: 15vh;
         }
     }
     .second-section{
         width: 100%;
         >.h3-container{
         >h3{
-            font-size: 3em;
+            font-size: 1.7em;
         }
     }
     }
