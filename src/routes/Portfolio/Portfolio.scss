@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
   >.h3-container{
     display: inherit;
     flex-direction: column;
@@ -31,6 +32,7 @@
     align-items: center;
     padding-bottom: 50px;
     width: 100%;
+    
 }
 .project-main{
     display: flex;
@@ -39,20 +41,25 @@
     width: 100%;
     >button{
         width: 100%;
+        padding: 0px;
+        margin: 0px;
     }
+    
     >button h4{
-    font-family: $font-Family-header;
+    font-family: $logo;
     font-weight: $font-weight-header;
     width: 100%;
     border-bottom: 2px solid $color-2;
     background-color: $color-4;
     color: $font-color;
-    font-size: 2em;
+    font-size: 5em;
     margin: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
+    
+    }
+    >button h4:hover{
+        background-color: $color-main;
     }
     >.project-body{
         display: flex;
