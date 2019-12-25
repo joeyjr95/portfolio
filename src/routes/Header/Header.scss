@@ -23,3 +23,6 @@ header {
     font-family: $font-Family-header;
     font-weight: $font-weight-header;
   }
+  header a:hover{
+    color: $color-4;
+  }
