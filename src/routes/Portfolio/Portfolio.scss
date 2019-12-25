@@ -91,7 +91,7 @@
     .stack{
         margin-left: 12px;
         margin-right: 12px;
-        border-left: 2px solid $color-2;
+        border-top: 2px solid $color-2;
         padding: 8px;
     }
     
@@ -131,10 +131,11 @@
             padding-right: 40px;
             margin-bottom: 0px;
             padding-top: 40px;
+            border-left: none;
         }
         >img{
-            height: 280px;
-            width: 528px;
+            height: 288px;
+            width: 512px;
             margin-right: 70px;
             border: 1px solid $color-main;
         }

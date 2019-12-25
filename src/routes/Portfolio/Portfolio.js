@@ -66,7 +66,7 @@ render(){
             </div>
             <div className="projects">
              {projects.map(project => (
-                <section className="project-main"> 
+                <section className="project-main" key={project.id}> 
                <a href="#"
             className="collapsseToggle"
             onClick={() => this.toggle(`${Number(project.id)}`)}
