@@ -78,7 +78,7 @@ render(){
                 {project.description}
                 </p>
                 
-                 <img src={window.innerWidth >= 800 ? project.img : project.mImg} alt="website"/>     
+                 <img src={project.img} alt="website"/>     
                  </div> 
                 <p className="stack">Tech Stack: {project.stack}</p>
                 <div className="links">
@@ -101,3 +101,4 @@ render(){
     )
 }
 }
+// window.innerWidth >= 800 ? project.img : project.mImg

@@ -1,7 +1,7 @@
 @import '../../variables.scss';
 .project-body img{
-    height: 528px;
-    width: 280px;
+    height: 200px;
+    width: 300px;
     
 }
 .links{
@@ -73,7 +73,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        >.description, .stack, a{
+        >.description, a{
             margin-left: 20px;
             margin-right: 20px;
             font-family: $font-Family-text;
@@ -83,8 +83,16 @@
         
     }
     .description{
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+        border-left: 2px solid $color-2;
+        padding: 8px;
+    }
+    .stack{
+        margin-left: 12px;
+        margin-right: 12px;
+        border-left: 2px solid $color-2;
+        padding: 8px;
     }
     
 
