@@ -1,4 +1,4 @@
-
+/* eslint-disable */
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Portfolio.scss'
@@ -66,10 +66,10 @@ render(){
             <div className="projects">
              {projects.map(project => (
                 <section className="project-main"> 
-               <button
+               <a href="#"
             className="collapsseToggle"
             onClick={() => this.toggle(`${Number(project.id)}`)}
-          ><h4>{project.title}</h4></button>
+          ><h4>{project.title}</h4></a>
                <div className="project-body">
                <div className={collapssed[Number(project.id)] ? "toggleContent-open" : "toggleContent-closed"}>
                 <p className="description">
