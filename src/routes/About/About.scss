@@ -14,10 +14,22 @@
     color: $font-color;
     margin:0;
     padding: 5px;
+    border-bottom: 2px solid $color-2;
 }
 .about-me-essay{
     padding-left: 20px;
     padding-right: 20px;
-    border-top: 2px solid $color-2;
     font-family: $font-Family-text;
+}
+@media screen and (min-width: 1200px) {
+    .about-me-essay{
+        margin-top: 9vh;
+        margin-left: 20vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        margin-right: 20vw;
+        border: 2px solid $color-4;
+    }
 }
