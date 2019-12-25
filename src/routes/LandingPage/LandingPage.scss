@@ -41,9 +41,10 @@
         font-family: $logo;
         background-color: $color-4; 
         width: 100%;
-        padding: 5px;
+        padding-bottom: 1px;
+        padding-top: 15px;
         text-align: center;
-        font-size: 5em;
+        font-size: 4em;
         border-bottom: 2px solid $color-2;
         margin-bottom: 6vh;
     }
@@ -99,13 +100,13 @@
 @media screen and (min-width: 1200px) {
     .first-section{
         >img{
-            margin-top: 8vh;
+            margin-top: 12vh;
             width: 120px;
             height: 120px;
         }
         >h2{
             font-size: 5vw;
-            margin-top: 11vh;
+            margin-top: 12vh;
         }
     }
     .second-section{
