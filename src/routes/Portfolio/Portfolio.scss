@@ -146,21 +146,21 @@
         >.description{
             margin-left: 70px;
             margin-right: 70px;
-            padding-left: 40px;
+            padding-left: 30px;
             padding-right: 40px;
             margin-bottom: 0px;
-            padding-top: 40px;
-            border-left: none;
+            padding-top: 10px;
+            font-size: 1.2em;
         }
         >img{
-            height: 360px;
-            width: 640px;
+            height: 432px;
+            width: 768px;
             margin-right: 70px;
             border: 1px solid $color-main;
         }
     }
     .stack{
-        margin-top: 3em;
+        font-size: 1.2em;
     }
 }
 @media screen and (min-width: 1400px) {
@@ -188,5 +188,8 @@
             margin-right: 4.5%;
             border: 1px solid $color-main;
         }
+    }
+    .stack{
+        font-size: 1.5em;
     }
 }
