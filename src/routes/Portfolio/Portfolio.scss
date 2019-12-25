@@ -1,9 +1,4 @@
 @import '../../variables.scss';
-.project-body img{
-    height: 200px;
-    width: 300px;
-    
-}
 .links{
     padding-bottom: 20px;
 }
@@ -114,6 +109,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    >img{
+        height: 200px;
+        width: 300px;
+        
+    }
 }
 @media screen and (min-width: 768px) {
     
