@@ -49,7 +49,7 @@ export default class Portfolio extends Component {
     toggle(id){
         this.setState({
             collapssed:{
-                ...this.state.collapssed,
+                // ...this.state.collapssed,
                 [id]: !this.state.collapssed[id]
             }
         })
