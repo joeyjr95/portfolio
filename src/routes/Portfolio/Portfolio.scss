@@ -15,7 +15,7 @@
     display: inherit;
     flex-direction: column;
     align-items: center;
-    border-bottom: 2px solid $color-2;
+    border-bottom: 3px solid $color-2;
     width: 100%;
     padding-bottom: 1px;
     padding-top: 15px;
@@ -161,5 +161,32 @@
     }
     .stack{
         margin-top: 3em;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .section-flex{
+        margin-top:1em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+
+        >.description{
+            margin-left: 4.5%;
+            margin-right: 4.5%;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-bottom: 0px;
+            padding-top: 10px;
+            border-left: 2px solid $color-2;
+            font-size: 1.5em;
+        }
+        >img{
+            margin-top: 20px;
+            height: 684px;
+            width: 1216px;
+            margin-right: 4.5%;
+            border: 1px solid $color-main;
+        }
     }
 }

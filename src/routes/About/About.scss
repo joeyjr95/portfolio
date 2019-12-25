@@ -15,7 +15,7 @@
     margin:0;
     padding-bottom: 1px;
         padding-top: 15px;
-    border-bottom: 2px solid $color-2;
+    border-bottom: 3px solid $color-2;
 }
 .about-me-essay{
     padding-left: 20px;
@@ -37,5 +37,11 @@
 @media screen and (min-width: 1200px) {
     .about-me-essay{
         margin-top: 9vh;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .about-me-essay{
+        margin-top: 12vh;
+        font-size: 1.5em;
     }
 }
