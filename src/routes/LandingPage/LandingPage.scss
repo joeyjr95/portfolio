@@ -96,3 +96,25 @@
         }
     }
 }
+@media screen and (min-width: 1200px) {
+    .first-section{
+        >img{
+            margin-top: 8vh;
+            width: 120px;
+            height: 120px;
+        }
+        >h2{
+            font-size: 5vw;
+            margin-top: 11vh;
+        }
+    }
+    .second-section{
+        width: 100%;
+        >.h3-container{
+        >h3{
+            font-size: 3em;
+        }
+    }
+    }
+
+}
