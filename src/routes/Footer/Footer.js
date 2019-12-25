@@ -16,10 +16,10 @@ export default class Footer extends React.Component {
         <>
       <footer className="footer">
         <div className="contact-info">
-            <Link to="mailto:joeyjr95@gmail.com"> <FontAwesomeIcon icon={faEnvelope} className="icon"/></Link>
-            <Link to="tel:+17036080673"> <FontAwesomeIcon icon={faMobileAlt} className="icon" /> </Link> 
-            <Link to="https://www.linkedin.com/in/joey-romo-85a00a53/"><FontAwesomeIcon icon={faLinkedin} className="icon"/> </Link> 
-            <Link to="https://github.com/joeyjr95"><FontAwesomeIcon icon={faGithubSquare} className="icon"/></Link>
+            <a href="mailto:joeyjr95@gmail.com" rel="noopener noreferrer" target="_blank"> <FontAwesomeIcon icon={faEnvelope} className="icon"/></a>
+            <a href="tel:+17036080673" rel="noopener noreferrer" target="_blank"> <FontAwesomeIcon icon={faMobileAlt} className="icon" /> </a> 
+            <a href="https://www.linkedin.com/in/joey-romo-85a00a53/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="icon"/> </a> 
+            <a href="https://github.com/joeyjr95" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithubSquare} className="icon"/></a>
         </div>
              
       </footer>

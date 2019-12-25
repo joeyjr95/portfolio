@@ -42,7 +42,8 @@ export default class Portfolio extends Component {
             }
             
         ],
-        collapssed: {3:true}
+        collapssed: {3:true},
+        window: null
 
         
     }
@@ -56,7 +57,7 @@ export default class Portfolio extends Component {
     }
 render(){
     const { projects = [], collapssed} = this.state
-    console.log(collapssed);
+    
     return(
     
         <section className="portfolio-section">
@@ -77,12 +78,12 @@ render(){
                 {project.description}
                 </p>
                 
-                 <img src={window.innerWidth >= 1200 ? project.img : project.mImg} alt="website"/>     
+                 <img src={window.innerWidth >= 800 ? project.img : project.mImg} alt="website"/>     
                  </div> 
                 <p className="stack">Tech Stack: {project.stack}</p>
                 <div className="links">
-                <Link to={project.live}>live project</Link>
-                <Link to={project.repo}>repo</Link>
+                <a href={project.live} rel="noopener noreferrer" target="_blank">live project</a>
+                <a href={project.repo} rel="noopener noreferrer" target="_blank">repo</a>
                 </div>
              </div>  
           
