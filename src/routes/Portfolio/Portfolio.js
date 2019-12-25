@@ -42,7 +42,7 @@ export default class Portfolio extends Component {
             }
             
         ],
-        collapssed: {1:true}
+        collapssed: {3:true}
 
         
     }
