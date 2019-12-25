@@ -11,6 +11,7 @@ export default class LandingPage extends Component {
           <img src="https://i.imgur.com/jEoyqgx.jpg" alt="joey romo" />
           <h2>{h2}</h2>
         </div>
+        <div className="landing-page-bg"></div>
         <div className="second-section">
           <div className="h3-container">
           <h3>Skills</h3>

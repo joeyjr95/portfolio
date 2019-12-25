@@ -5,11 +5,28 @@
     align-items: center;
     
 }
+.landing-page-bg {
+    background-image: url('https://i.imgur.com/UagwneN.png');
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    background-color: $color-4;
+    background-blend-mode: multiply;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    top: -10px;
+    z-index: -10;
+    padding: 0;
+    width: 100%;
+    height: calc(100vh - 60px);
+  }
 .first-section{
     display: inherit;
     flex-direction: inherit;
     align-items: inherit;
-    background-color: $color-4;
+    
     color: $font-color;
     width: 100%;
     >img{
@@ -35,6 +52,7 @@
     flex-direction: inherit;
     align-items: inherit;
     height: 280px;
+    background-color: white;
     
     
     >.h3-container{
