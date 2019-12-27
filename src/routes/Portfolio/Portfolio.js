@@ -1,6 +1,5 @@
 /* eslint-disable */
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './Portfolio.scss'
 
 
@@ -78,7 +77,8 @@ render(){
                 {project.description}
                 </p>
                 
-                 <img src={project.img} alt="website"/>     
+                 <img src={project.img} alt="website"/>
+                 <button>click me</button>     
                  </div> 
                 <p className="stack">Tech Stack: {project.stack}</p>
                 <div className="links">
