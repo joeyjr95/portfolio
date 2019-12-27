@@ -43,10 +43,10 @@ export default class SlideShow extends Component {
     changeImage = (e) => {
         e.preventDefault()
          this.indexControl()
-        console.log(this.state.currentIndex)
+        
         let index = this.state.currentIndex
         let images = this.props.images
-        console.log(images[index])
+        
         this.setState({currentImage: images[index]})
         
     }
