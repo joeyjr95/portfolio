@@ -122,19 +122,23 @@
             align-items: center;
             justify-content: center;
             text-decoration: none;
-            color: rgb(116, 114, 114);
-            height: 30px;
+            color: $color-4;
+            height: 170px;
             width: 30px;
         }
         >a:hover{
-            color: $color-4
+            color: rgb(128, 119, 119);
         }
         >.button1{
-            margin-right: -25px;
+            padding: 0px;
+            margin-right: 0px;
             z-index: 1;
+            margin-left: 0px;
         }
         >.button2{
-            margin-left: -25px;
+            padding: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
         }
         >img{
         height: 170px;
