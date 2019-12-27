@@ -131,13 +131,13 @@
         }
         >.button1{
             padding: 0px;
-            margin-right: 0px;
+            margin-right: -23px;
             z-index: 1;
             margin-left: 0px;
         }
         >.button2{
             padding: 0px;
-            margin-left: 0px;
+            margin-left: -23px;
             margin-right: 0px;
         }
         >img{
@@ -145,6 +145,25 @@
         width: 304px;
         border: 1px solid $color-main;
         
+    }
+}
+}
+@media screen and (min-width: 370px) {
+    .section-flex{
+       
+        >.imageBox{
+           
+            >.button1{
+                padding: 0px;
+                margin-right: 0px;
+                z-index: 1;
+                margin-left: 0px;
+            }
+            >.button2{
+                padding: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
     }
 }
 }
