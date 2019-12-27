@@ -109,11 +109,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    >img{
+    >.imageBox{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+        >a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: rgb(116, 114, 114);
+            height: 30px;
+            width: 30px;
+        }
+        >a:hover{
+            color: $color-4
+        }
+        >.button1{
+            margin-right: -25px;
+            z-index: 1;
+        }
+        >.button2{
+            margin-left: -25px;
+        }
+        >img{
         height: 170px;
         width: 304px;
+        border: 1px solid $color-main;
         
     }
+}
 }
 @media screen and (min-width: 768px) {
     
@@ -124,11 +153,13 @@
         justify-content: space-between;
         align-items: center;
 
-        >img{
+        >.imageBox{
+            >img{
             height: 387px;
             width: 688px;
             border: 1px solid $color-main;
         }
+    }
     }
     .stack{
         margin-top: 3em;
@@ -152,12 +183,15 @@
             padding-top: 10px;
             font-size: 1.2em;
         }
-        >img{
+        >.imageBox{
+            margin-top: 1.2%;
+            margin-right: 30px;
+            >img{
             height: 432px;
             width: 768px;
-            margin-right: 70px;
             border: 1px solid $color-main;
         }
+    }
     }
     .stack{
         font-size: 1.2em;
@@ -165,7 +199,7 @@
 }
 @media screen and (min-width: 1400px) {
     .section-flex{
-        margin-top:1em;
+        margin-top:1.5em;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -181,12 +215,13 @@
             border-left: 2px solid $color-2;
             font-size: 1.5em;
         }
-        >img{
-            margin-top: 20px;
+        >.imageBox{
+            margin-right: 4.5%;
+            >img{
             height: 684px;
             width: 1216px;
-            margin-right: 4.5%;
-            border: 1px solid $color-main;
+            border: 1px solid $color-main;}
+    
         }
     }
     .stack{
