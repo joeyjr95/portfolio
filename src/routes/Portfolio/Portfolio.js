@@ -42,7 +42,7 @@ export default class Portfolio extends Component {
             }
             
         ],
-        collapssed: {1:true},
+        collapssed: {1:true,2:true, 3:true},
         window: null
 
         
@@ -50,14 +50,14 @@ export default class Portfolio extends Component {
     toggle(id){
         this.setState({
             collapssed:{
-                // ...this.state.collapssed,
+                 ...this.state.collapssed,
                 [id]: !this.state.collapssed[id]
             }
         })
     }
 render(){
     const { projects = [], collapssed} = this.state
-    
+    console.log(collapssed)
     return(
     
         <section className="portfolio-section">

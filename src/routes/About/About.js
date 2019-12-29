@@ -21,6 +21,10 @@ export default class About extends Component {
               </p>
               <p>
                 {" "}
+                While attending Thinkful's program I worked on projects that varied from solo, paired programming, to a team of 5 people. I'm grateful for this experience because it showed me how much I love working with other people. I learned how to balance the work flow between my team with git branches and pull requests. I would love to work on a team because I believe collaboration brings out the best in projects.
+              </p>
+              <p>
+                {" "}
                 Before I started my dive into programming I was a business
                 administration student at Flagler College, but realized business
                 administration wasn’t for me. Besides being a student, I’ve been
