@@ -10,18 +10,24 @@ export default class About extends Component {
             <div className="about-me-essay">
               <p>
                 {" "}
-                I am a 24 year old Full-Stack developer from
-                Gainesville, Florida who recently graduated from Thinkful's
-                engineering immersion program. As a developer, I love learning
-                different code everyday and eventually putting it together to
-                make projects. I have an inescapable attention to detail, which
-                sometimes means spending more time than I should adjusting
-                pixels in CSS. I enjoy building and designing things, which
-                brought me to Thinkful and programming in general.{" "}
+                I am a Full-Stack developer from Gainesville, Florida who
+                recently graduated from Thinkful's engineering immersion
+                program. As a developer, I love learning different code everyday
+                and eventually putting it together to make projects. I have a
+                strong attention to detail, which means that I will work until
+                the webpage looks exactly how it is supposed too. I enjoy
+                building and designing things, which brought me to Thinkful and
+                programming in general.{" "}
               </p>
               <p>
                 {" "}
-                While attending Thinkful's program I worked on projects that varied from solo, paired programming, to a team of 5 people. I'm grateful for this experience because it showed me how much I love working with other people. I learned how to balance the work flow between my team with git branches and pull requests. I would love to work on a team because I believe collaboration brings out the best in projects.
+                While attending Thinkful's program I worked on projects that
+                varied from solo, paired programming, to a team of 5 people. I'm
+                grateful for this experience because it showed me how much I
+                love working with other people. I learned how to balance the
+                work flow between my team with git branches and pull requests. I
+                would love to work on a team because I believe collaboration
+                brings out the best in projects.
               </p>
               <p>
                 {" "}
